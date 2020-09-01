@@ -14,6 +14,10 @@ footer {
   background-color: green;
 }
 
+#footer_links, #footer_rechts {
+  padding: 50px;
+}
+
 #footer_links {
   float: left;
 }
