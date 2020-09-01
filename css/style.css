@@ -1,11 +1,24 @@
+/*Header*/
 header {
   background-color: gray;
 }
 
+/*Main*/
 main {
   background-color: yellow;
 }
 
+/*Footer*/
 footer {
+  height: 100px;
   background-color: green;
+}
+
+#footer_links, #footer_rechts {
+  float: left;
+}
+
+#footer_rechts {
+  float: right;
+  text-align: right;
 }
