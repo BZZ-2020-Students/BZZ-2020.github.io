@@ -14,11 +14,10 @@ footer {
   background-color: green;
 }
 
-#footer_links, #footer_rechts {
+#footer_links {
   float: left;
 }
 
 #footer_rechts {
   float: right;
-  text-align: right;
 }
