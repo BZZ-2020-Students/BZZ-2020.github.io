@@ -10,8 +10,17 @@
 
 /*================Header================*/
 header /*The whole header*/ {
+  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: gray; /*Background color*/
   min-height: 200px; /*The minimum height of the header. it CANT be less than that*/
+}
+
+#top_nav /*The whole navigation in the top*/ {
+  text-align: right; /*put it to the right side*/
+}
+
+#top_nav ul li /*All "li" in the top navigation*/ {
+  display: inline-block; /*Put them on one line*/
 }
 
 #logo_header /*Logo in header*/ {
@@ -21,15 +30,17 @@ header /*The whole header*/ {
 
 /*================Main================*/
 main /*The whole main*/ {
+  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: yellow; /*background color*/
 }
 
 main section /*Every section inside of main*/ {
-  padding: 0px 10px 30px 10px; /*Adding a distance on the right, bottom, and left side. no distance on top*/
+  padding: 10px; /*Adding a distance around*/
 }
 
 /*================Footer================*/
 footer /*the whole footer*/ {
+  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
   background-color: green; /*background color*/
 }
