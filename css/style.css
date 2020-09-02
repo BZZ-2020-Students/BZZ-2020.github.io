@@ -1,15 +1,15 @@
-/*Header*/
+/*================Header================*/
 header {
   background-color: gray;
   padding-bottom: 100px;
 }
 
-/*Main*/
+/*================Main================*/
 main {
   background-color: yellow;
 }
 
-/*Footer*/
+/*================Footer================*/
 footer {
   height: 100px;
   background-color: green;
