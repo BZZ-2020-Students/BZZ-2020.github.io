@@ -24,6 +24,10 @@ main /*The whole main*/ {
   background-color: yellow; /*background color*/
 }
 
+main section /*Every section inside of main*/ {
+  padding: 0px 10px 30px 10px; /*Adding a distance on the right, bottom, and left side. no distance on top*/
+}
+
 /*================Footer================*/
 footer /*the whole footer*/ {
   min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
