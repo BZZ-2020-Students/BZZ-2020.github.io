@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html /*The full html*/{
+  background-color: indigo; /*Background color*/
+}
+
 /*================Wrapper================*/
 #wrapper /*The whole site*/ {
 }
