@@ -1,37 +1,43 @@
 * {
+  /*Removing the border around the website*/
   margin: 0;
   padding: 0;
 }
 
+/*================Wrapper================*/
+#wrapper /*The whole site*/ {
+}
+
 /*================Header================*/
-header {
-  background-color: gray;
-  padding-bottom: 100px;
+header /*The whole header*/ {
+  background-color: gray; /*Background color*/
+  min-height: 200px; /*The minimum height of the header. it CANT be less than that*/
+}
+
+#logo_header /*Logo in header*/ {
+  min-width: 100px; /*The minimum width of the logo. it CANT be less than that*/
+  width: 10%; /*10% of the viewport / browser*/
 }
 
 /*================Main================*/
-main {
-  background-color: yellow;
+main /*The whole main*/ {
+  background-color: yellow; /*background color*/
 }
 
 /*================Footer================*/
-footer {
-  height: 100px;
-  background-color: green;
+footer /*the whole footer*/ {
+  min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
+  background-color: green; /*background color*/
 }
 
-#footer_links, #footer_rechts {
-
+#footer_left, #footer_right /*both "boxes" in the footer*/ {
+  margin-top: 30px; /*Distance from the top footer border*/
 }
 
-#footer_links {
-  float: left;
+#footer_left /*Only the left footer "box"*/ {
+  float: left; /*float on the left side*/
 }
 
-#footer_rechts {
-  float: right;
-}
-
-#logo_header {
-  width: 10%;
+#footer_right /*only the right footer "box"*/ {
+  float: right; /*float on the right side*/
 }
