@@ -42,6 +42,14 @@ main section /*Every section inside of main*/ {
   padding: 10px; /*Adding a distance around*/
 }
 
+.text_us {
+  text-align: left;
+}
+
+.text_about {
+  text-align: right;
+}
+
 /*================Footer================*/
 footer /*the whole footer*/ {
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
