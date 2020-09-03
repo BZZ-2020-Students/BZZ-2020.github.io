@@ -39,6 +39,7 @@ main /*The whole main*/ {
 }
 
 main section /*Every section inside of main*/ {
+  width: 50%;
   padding: 10px; /*Adding a distance around*/
 }
 
