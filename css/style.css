@@ -34,19 +34,15 @@ header /*The whole header*/ {
 
 /*================Main================*/
 main /*The whole main*/ {
-  position: relative;
-  width: 100%;
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: yellow; /*background color*/
 }
 
 main section /*Every section inside of main*/ {
-  width: 50%;
   padding: 10px; /*Adding a distance around*/
 }
 
 .text_about {
-  right: 0px;
   text-align: right;
 }
 
