@@ -19,6 +19,11 @@ header /*The whole header*/ {
   min-height: 200px; /*The minimum height of the header. it CANT be less than that*/
 }
 
+header div {
+  display: inline-block;
+  vertical-align: middle; /*Vertically align / center it*/
+}
+
 #top_nav /*The whole navigation in the top*/ {
   text-align: right; /*put it to the right side*/
 }
