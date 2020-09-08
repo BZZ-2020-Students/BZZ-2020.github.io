@@ -42,7 +42,7 @@ main section /*Every section inside of main*/ {
   padding: 10px; /*Adding a distance around*/
 }
 
-.text_about {
+.text_about span {
   text-align: right;
 }
 
