@@ -42,7 +42,23 @@ main section /*Every section inside of main*/ {
   padding: 10px; /*Adding a distance around*/
 }
 
-.text_about span {
+main section div /*The whole div inside section inside main*/ {
+  width: 49%; /*because of divs, 50% does not work*/
+  vertical-align: middle; /*Vertically align / center it*/
+  display: inline-block; /*put everything inside the div on one line*/
+}
+
+main section div img /*Every image inside a div inside a section inside main*/ {
+  min-width: 10%; /*Don't go under this limit*/
+  max-width: 100%; /*Don't go over the original resolution*/
+}
+
+/*TODO! merge text_right and image_right into one thing (element_right z.b?)*/
+.text_right /*Keep the text right*/{
+  text-align: right;
+}
+
+.image_right /*Keep the image right*/ {
   text-align: right;
 }
 
