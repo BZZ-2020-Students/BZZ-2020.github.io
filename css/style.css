@@ -37,7 +37,6 @@ header div {
   position: absolute;
   min-width: 100px; /*The minimum width of the logo. it CANT be less than that*/
   max-width: 60%;
-  height: auto;
 }
 
 /*================Main================*/
