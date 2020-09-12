@@ -73,11 +73,7 @@ h1 {
   background-color: aqua;
 }
 
-.text_right /*Keep the text right*/{
-  text-align: right;
-}
-
-.image_side_div /*The images that are on the side*/ {
+.text_side_div, .image_side_div {
   text-align: center;
 }
 
