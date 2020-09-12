@@ -14,9 +14,10 @@ html /*The full html*/{
 
 /*================Header================*/
 header /*The whole header*/ {
+  position: relative;
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: gray; /*Background color*/
-  min-height: 200px; /*The minimum height of the header. it CANT be less than that*/
+  min-height: 50vh; /*The minimum height of the header. it CAN'T be less than that*/
 }
 
 header div {
@@ -33,8 +34,10 @@ header div {
 }
 
 #logo_header /*Logo in header*/ {
+  position: absolute;
   min-width: 100px; /*The minimum width of the logo. it CANT be less than that*/
-  width: 10%; /*10% of the viewport / browser*/
+  max-width: 60%;
+  height: auto;
 }
 
 /*================Main================*/
@@ -55,6 +58,12 @@ main section div /*The whole div inside section inside main*/ {
 main section div img /*Every image inside a div inside a section inside main*/ {
   min-width: 100px; /*Don't go under this limit*/
   max-width: 100%; /*Don't go over the original resolution*/
+}
+
+h1 {
+  position: relative;
+  top: 0px;
+  left: 10%;
 }
 
 #section_about {
