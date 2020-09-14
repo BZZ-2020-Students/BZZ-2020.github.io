@@ -62,8 +62,7 @@ main section div img /*Every image inside a div inside a section inside main*/ {
 
 h1 {
   position: relative;
-  top: 0px;
-  left: 10%;
+  margin-left: 10px;
 }
 
 #section_about {
