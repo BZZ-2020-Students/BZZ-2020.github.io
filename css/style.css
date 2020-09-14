@@ -10,6 +10,7 @@ html /*The full html*/{
 
 /*================Wrapper================*/
 #wrapper /*The whole site*/ {
+  width: 100%;
 }
 
 /*================Header================*/
