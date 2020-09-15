@@ -1,32 +1,97 @@
-/*Header*/
-header {
-  background-color: gray;
-  padding-bottom: 100px;
+* {
+  /*Removing the border around the website*/
+  margin: 0;
+  padding: 0;
 }
 
-/*Main*/
-main {
-  background-color: yellow;
+html /*The full html*/{
+  background-color: indigo; /*Background color*/
 }
 
-/*Footer*/
-footer {
-  height: 100px;
-  background-color: green;
+/*================Wrapper================*/
+#wrapper /*The whole site*/ {
+  width: 100%;
 }
 
-#footer_links, #footer_rechts {
-  padding: 50px;
+/*================Header================*/
+header /*The whole header*/ {
+  position: relative;
+  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
+  background-color: gray; /*Background color*/
+  min-height: 50vh; /*The minimum height of the header. it CAN'T be less than that*/
 }
 
-#footer_links {
-  float: left;
+header div {
+  display: inline-block;
+  vertical-align: middle; /*Vertically align / center it*/
 }
 
-#footer_rechts {
-  float: right;
+#top_nav /*The whole navigation in the top*/ {
+  text-align: right; /*put it to the right side*/
 }
 
-#logo_header {
-  width: 10%;
+#top_nav ul li /*All "li" in the top navigation*/ {
+  display: inline-block; /*Put them on one line*/
+}
+
+#logo_header /*Logo in header*/ {
+  position: absolute;
+  min-width: 100px; /*The minimum width of the logo. it CANT be less than that*/
+  max-width: 60%;
+}
+
+/*================Main================*/
+main /*The whole main*/ {
+  background-color: yellow; /*background color*/
+}
+
+main section /*Every section inside of main*/ {
+  padding: 10px; /*Adding a distance around every section*/
+}
+
+main section div /*The whole div inside section inside main*/ {
+  width: 49%; /*because of divs, 50% does not work -_-*/
+  vertical-align: middle; /*Vertically align / center it*/
+  display: inline-block; /*put everything inside the div on one line*/
+}
+
+main section div img /*Every image inside a div inside a section inside main*/ {
+  min-width: 100px; /*Don't go under this limit*/
+  max-width: 100%; /*Don't go over the original resolution*/
+}
+
+h1 {
+  position: relative;
+  margin-left: 10px;
+}
+
+#section_about {
+  background-color: aliceblue;
+}
+
+#section_us {
+  background-color: aqua;
+}
+
+.text_side_div, .image_side_div /*Text and Image that are on the side*/ {
+  text-align: center; /*Center the content*/
+}
+
+/*================Footer================*/
+footer /*the whole footer*/ {
+  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
+  min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
+  background-color: green; /*background color*/
+}
+
+#footer_left, #footer_right /*both "boxes" in the footer*/ {
+  margin-top: 30px; /*Distance from the top footer border*/
+}
+
+#footer_left /*Only the left footer "box"*/ {
+  float: left; /*float on the left side*/
+}
+
+#footer_right /*only the right footer "box"*/ {
+  float: right; /*float on the right side*/
 }
