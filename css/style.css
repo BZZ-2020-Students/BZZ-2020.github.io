@@ -15,6 +15,8 @@ html /*The full html*/{
 
 /*================Header================*/
 header /*The whole header*/ {
+  background-image: url(../img/background_header.jpg);
+  background-size: contain;
   position: relative;
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: gray; /*Background color*/
