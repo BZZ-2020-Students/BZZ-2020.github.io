@@ -26,12 +26,31 @@ header div {
   vertical-align: middle; /*Vertically align / center it*/
 }
 
-#top_nav /*The whole navigation in the top*/ {
-  text-align: right; /*put it to the right side*/
+#navbar ul {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #000;
 }
 
-#top_nav ul li /*All "li" in the top navigation*/ {
-  display: inline-block; /*Put them on one line*/
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #000;
+}
+
+#navbar ul li a:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 #logo_header /*Logo in header*/ {
