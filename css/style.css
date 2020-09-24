@@ -54,6 +54,11 @@ header div {
   background-color: #fff;
 }
 
+#navbar li .active_navbar {
+  color: black;
+  background-color: white;
+}
+
 #logo_header /*Logo in header*/ {
   position: absolute;
   min-width: 100px; /*The minimum width of the logo. it CANT be less than that.*/
