@@ -149,6 +149,10 @@ footer /*the whole footer*/ {
 }
 
 /*================Page: über uns================*/
+#wer {
+  text-align: center;
+}
+
 .person_desc ul {
   padding-left: 20px;
   text-align: left;
