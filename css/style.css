@@ -5,7 +5,7 @@
 }
 
 html /*The full html*/{
-  background-color: indigo; /*Background color*/
+  background-color: white; /*Background color*/
 }
 
 /*================Wrapper================*/
@@ -14,11 +14,17 @@ html /*The full html*/{
 /*================Header================*/
 header /*The whole header*/ {
   background-image: url(../img/background_header.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: gray; /*Background color*/
-  min-height: 50vh; /*The minimum height of the header. it CAN'T be less than that*/
+  height: 20vh;
+}
+
+#landing_page {
+  height: 100vh; /*The minimum height of the header. it CAN'T be less than that*/
 }
 
 header div {
@@ -29,7 +35,7 @@ header div {
 #navbar ul {
   padding: 5px;
   width: calc(100% - 10px); /* NOTE: Wegen dem Padding muss ich die Pixel vom den breite abrechnen. sonst ist es zu breit -_- */
-  position: absolute;
+  position: sticky;
   bottom: 0;
   left: 0;
   list-style-type: none;
@@ -60,8 +66,13 @@ header div {
 
 #logo_header /*Logo in header*/ {
   position: absolute;
+
   min-width: 100px; /*The minimum width of the logo. it CANT be less than that.*/
   max-width: 60%; /*max width, based on the original resolution*/
+}
+
+#landing_page #logo #logo_header /* NOTE: The logo in the landing_page */ {
+  text-align: center;
 }
 
 /*================Main================*/
@@ -105,7 +116,7 @@ h1 {
 footer /*the whole footer*/ {
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
   min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
-  background-color: green; /*background color*/
+  background-color: rgb(70, 70, 70); /*background color*/
 }
 
 #footer_left, #footer_right /*both "boxes" in the footer*/ {
