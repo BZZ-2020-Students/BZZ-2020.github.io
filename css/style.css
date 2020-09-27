@@ -6,16 +6,23 @@
 
 html /*The full html*/{
   background-color: white; /*Background color*/
+  scroll-behavior: smooth; /*Make the website go smoooth*/
 }
 
 /*================Wrapper================*/
 
+/*================h================*/
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
 
 /*================Header================*/
 header /*The whole header*/ {
   background-image: url(../img/background_header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   position: relative;
   padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
@@ -23,8 +30,8 @@ header /*The whole header*/ {
   height: 20vh;
 }
 
-#landing_page {
-  height: 100vh; /*The minimum height of the header. it CAN'T be less than that*/
+#landing_page /* NOTE: Make the landing page bigger */ {
+  height: 50vh; /*The minimum height of the header. it CAN'T be less than that*/
 }
 
 header div {
@@ -32,25 +39,30 @@ header div {
   vertical-align: middle; /*Vertically align / center it*/
 }
 
-#navbar ul {
-  padding: 5px;
-  width: calc(100% - 10px); /* NOTE: Wegen dem Padding muss ich die Pixel vom den breite abrechnen. sonst ist es zu breit -_- */
+#navbar {
   position: sticky;
-  bottom: 0;
-  left: 0;
+  top: 0;
+  height: 30px;
+}
+
+#navbar ul {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc(100% - 10px); /* NOTE: Wegen dem Padding muss ich die Pixel vom den breite abrechnen. sonst ist es zu breit -_- */
   list-style-type: none;
   text-align: center;
-  background-color: #000;
+  background-color: black; /* NOTE: The color of the whole thing. black */
+  height: 100%;
 }
 
 #navbar ul li {
   display: inline;
 }
 
-#navbar ul li a {
+#navbar ul li a /* NOTE: The text/buttons */ {
   text-decoration: none;
-  padding: .2em 1em;
-  color: #fff;
+  padding: 5px 10px; /* NOTE: The size of the buttons. top/bottom left/right */
+  color: white; /* NOTE: Text color */
   background-color: #000;
 }
 
@@ -59,9 +71,9 @@ header div {
   background-color: #fff;
 }
 
-#navbar li .active_navbar {
-  color: black;
-  background-color: white;
+#navbar li .active_navbar /* NOTE: The currently active navbar */{
+  color: black; /* NOTE: Text is black */
+  background-color: white; /* NOTE: background is white */
 }
 
 #logo_header /*Logo in header*/ {
@@ -71,13 +83,15 @@ header div {
   max-width: 60%; /*max width, based on the original resolution*/
 }
 
-#landing_page #logo #logo_header /* NOTE: The logo in the landing_page */ {
-  text-align: center;
-}
-
 /*================Main================*/
-main /*The whole main*/ {
-  background-color: yellow; /*background color*/
+main {
+  background-image: url(../img/lightbulb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: black;
 }
 
 main section /*Every section inside of main*/ {
@@ -95,17 +109,8 @@ main section div img /*Every image inside a div inside a section inside main*/ {
   max-width: 100%; /*Don't go over the original resolution*/
 }
 
-h1 {
-  position: relative;
-  margin-left: 10px;
-}
-
-#section_about {
-  background-color: aliceblue;
-}
-
-#section_us {
-  background-color: aqua;
+.gray_background {
+  background-color: rgb(195, 195, 195);
 }
 
 .text_side_div, .image_side_div /*Text and Image that are on the side*/ {
