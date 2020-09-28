@@ -32,7 +32,7 @@ header /*The whole header*/ {
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
+  padding: 0 10px; /*distance on the left and the right, no distance on top or bottom*/
   background-color: gray; /*Background color*/
   height: 20vh;
 }
@@ -131,7 +131,7 @@ main section div img /*Every image inside a div inside a section inside main*/ {
 
 /*================Footer================*/
 footer /*the whole footer*/ {
-  padding: 0px 10px; /*distance on the left and the right, no distance on top or bottom*/
+  padding: 0 10px; /*distance on the left and the right, no distance on top or bottom*/
   min-height: 100px; /*The minimum height of the footer. it CANT be less than that*/
   background-color: rgb(70, 70, 70); /*background color*/
 }
