@@ -191,7 +191,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+			margin: 0 0 2em;
 			text-transform: uppercase;
 		}
 
@@ -245,7 +245,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -253,7 +253,7 @@ input, select, textarea {
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 1em;
 		text-transform: uppercase;
 	}
 
@@ -319,7 +319,7 @@ input, select, textarea {
 	blockquote {
 		border-left: solid 4px rgba(255, 255, 255, 0.125);
 		font-style: italic;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
@@ -337,7 +337,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 	}
 
 		pre code {
@@ -512,19 +512,19 @@ input, select, textarea {
 
 		.row.gtr-0 {
 			margin-top: 0;
-			margin-left: 0em;
+			margin-left: 0;
 		}
 
 			.row.gtr-0 > * {
-				padding: 0 0 0 0em;
+				padding: 0;
 			}
 
 			.row.gtr-0.gtr-uniform {
-				margin-top: 0em;
+				margin-top: 0;
 			}
 
 				.row.gtr-0.gtr-uniform > * {
-					padding-top: 0em;
+					padding-top: 0;
 				}
 
 		.row.gtr-25 {
@@ -755,19 +755,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -1000,19 +1000,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -1245,19 +1245,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -1490,19 +1490,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -1735,19 +1735,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -1980,19 +1980,19 @@ input, select, textarea {
 
 				.row.gtr-0 {
 					margin-top: 0;
-					margin-left: 0em;
+					margin-left: 0;
 				}
 
 					.row.gtr-0 > * {
-						padding: 0 0 0 0em;
+						padding: 0;
 					}
 
 					.row.gtr-0.gtr-uniform {
-						margin-top: 0em;
+						margin-top: 0;
 					}
 
 						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0em;
+							padding-top: 0;
 						}
 
 				.row.gtr-25 {
@@ -2091,7 +2091,7 @@ input, select, textarea {
 /* Form */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 	}
 
 		form > :last-child {
@@ -2169,7 +2169,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
-		margin: 0 0 0.7em 0;
+		margin: 0 0 0.7em;
 		text-transform: uppercase;
 	}
 
@@ -2443,7 +2443,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 2em;
 			width: 100%;
 		}
 
@@ -2453,7 +2453,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 3em;
 			width: 100%;
 		}
 
@@ -2465,7 +2465,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 		padding-left: 1.25em;
 	}
 
@@ -2475,7 +2475,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 		padding-left: 1em;
 	}
 
@@ -2499,13 +2499,13 @@ input, select, textarea {
 				}
 
 	dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 	}
 
 		dl dt {
 			display: block;
 			font-weight: 600;
-			margin: 0 0 1em 0;
+			margin: 0 0 1em;
 		}
 
 		dl dd {
@@ -2552,7 +2552,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3em 0 0 0;
+				padding: 1.3em 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -2603,7 +2603,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					padding: 1em 0 0 0;
+					padding: 1em 0 0;
 					text-align: center;
 					width: 100%;
 				}
@@ -2664,7 +2664,7 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
+			margin: 2.5em 0 0;
 			padding: 0 0 0 3.25em;
 			position: relative;
 		}
@@ -2703,7 +2703,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.contact li {
-				margin: 1.5em 0 0 0;
+				margin: 1.5em 0 0;
 			}
 
 		}
@@ -2786,7 +2786,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 		width: 100%;
 	}
 
@@ -2801,14 +2801,14 @@ input, select, textarea {
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.75em;
 		}
 
 		table th {
 			color: #ffffff;
 			font-size: 0.9em;
 			font-weight: 600;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0.75em 0.75em;
 			text-align: left;
 		}
 
@@ -2998,11 +2998,11 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 	}
 
 		.features article {
-			padding: 1.75em 1.75em 0.1em 1.75em ;
+			padding: 1.75em 1.75em 0.1em;
 			background-color: #353849;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
@@ -3040,7 +3040,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features article {
-				padding: 1.5em 1.5em 0.1em 1.5em ;
+				padding: 1.5em 1.5em 0.1em;
 				margin: 0.875em 1.75em 0.875em 0;
 				width: calc(50% - 0.875em - 1px);
 			}
@@ -3062,7 +3062,7 @@ input, select, textarea {
 
 				.features article {
 					width: 100%;
-					margin: 0 0 2em 0 !important;
+					margin: 0 0 2em !important;
 				}
 
 		}
@@ -3269,7 +3269,7 @@ input, select, textarea {
 	}
 
 		#menu .inner {
-			padding: 2.5em 1.5em 0.5em 1.5em ;
+			padding: 2.5em 1.5em 0.5em;
 			-moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
@@ -3376,7 +3376,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 10em 0 4.75em;
 	}
 
 		#banner .inner {
@@ -3394,7 +3394,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			margin: 0 0 1.3em;
 		}
 
 			#banner .logo .icon {
@@ -3462,7 +3462,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+				padding: 7em 0 8.25em;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
@@ -3475,7 +3475,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				padding: 12em 3em 12.375em;
 				margin-bottom: -4.75em;
 			}
 
@@ -3488,12 +3488,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 5em 2em 4.25em;
 				margin-bottom: -2.5em;
 			}
 
 				#banner .logo {
-					margin: 0 0 1em 0;
+					margin: 0 0 1em;
 				}
 
 					#banner .logo .icon {
@@ -3545,7 +3545,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper > header {
-		padding: 11em 0 2.25em 0 ;
+		padding: 11em 0 2.25em;
 	}
 
 		#wrapper > header .inner {
@@ -3572,7 +3572,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
-			padding: 9em 0 6.25em 0 ;
+			padding: 9em 0 6.25em;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
@@ -3585,7 +3585,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		#wrapper > header {
-			padding: 11em 3em 7.375em 3em ;
+			padding: 11em 3em 7.375em;
 			background-size: auto, cover;
 			background-position: center, 0% 0%;
 			margin-bottom: -4.75em;
@@ -3600,7 +3600,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#wrapper > header {
-			padding: 6.5em 2em 3em 2em ;
+			padding: 6.5em 2em 3em;
 			background-size: auto, 125%;
 			margin-bottom: -2.5em;
 		}
@@ -3672,7 +3672,7 @@ input, select, textarea {
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 3em 0 1em;
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -3918,7 +3918,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 3em 3em 1em 3em ;
+					padding: 3em 3em 1em;
 					width: 100%;
 				}
 
@@ -3953,7 +3953,7 @@ input, select, textarea {
 				}
 
 				.wrapper .inner {
-					padding: 2em 2em 0.1em 2em ;
+					padding: 2em 2em 0.1em;
 				}
 
 				.wrapper.spotlight .inner {
@@ -3981,7 +3981,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				margin: 0 0 1em 0 !important;
+				margin: 0 0 1em !important;
 				max-width: 85%;
 				width: 12em;
 			}
@@ -3991,7 +3991,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			.wrapper .inner {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 2em 1.5em 0.1em;
 			}
 
 		}
@@ -3999,7 +3999,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		padding: 5em 0 3em;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4032,8 +4032,8 @@ input, select, textarea {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
-			padding: 2em 0 0 0;
+			margin: 4em 0 2em;
+			padding: 2em 0 0;
 			width: 100%;
 		}
 
@@ -4079,23 +4079,23 @@ input, select, textarea {
 		}
 
 			#footer .inner {
-				padding: 3em 3em 1em 3em ;
+				padding: 3em 3em 1em;
 				display: block;
 				width: 100%;
 			}
 
 				#footer .inner form {
 					width: 100%;
-					margin: 0 0 4em 0;
+					margin: 0 0 4em;
 				}
 
 				#footer .inner .contact {
 					width: 100%;
-					margin: 0 0 4em 0;
+					margin: 0 0 4em;
 				}
 
 				#footer .inner .copyright {
-					margin: 4em 0 2em 0;
+					margin: 4em 0 2em;
 				}
 
 	}
@@ -4108,15 +4108,15 @@ input, select, textarea {
 		}
 
 			#footer .inner {
-				padding: 2em 2em 0.1em 2em ;
+				padding: 2em 2em 0.1em;
 			}
 
 				#footer .inner form {
-					margin: 0 0 3em 0;
+					margin: 0 0 3em;
 				}
 
 				#footer .inner .contact {
-					margin: 0 0 3em 0;
+					margin: 0 0 3em;
 				}
 
 	}
@@ -4126,7 +4126,7 @@ input, select, textarea {
 		#footer .inner .copyright li {
 			border-left: 0;
 			display: block;
-			margin: 1em 0 0 0;
+			margin: 1em 0 0;
 			padding-left: 0;
 		}
 
@@ -4139,7 +4139,7 @@ input, select, textarea {
 	@media screen and (max-width: 360px) {
 
 		#footer .inner {
-			padding: 2em 1.5em 0.1em 1.5em ;
+			padding: 2em 1.5em 0.1em;
 		}
 
 	}
