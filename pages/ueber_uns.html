@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/style.css" />
     <title>Website BZZ</title> <!--TODO: Adjust title-->
   </head>
@@ -11,117 +11,94 @@
         <div id="logo">
           <a href="../index.html"><img src="../img/placeholder_logo.png" alt="Logo" id="logo_header"></a> <!--TODO: Add logo, image or text-->
         </div>
-
-        <nav id="navbar">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="iperka.html">Iperka</a></li>
-            <li><a href="hermes.html">Hermes</a></li>
-            <li><a href="organisation.html">Organisation</a></li>
-            <li><a href="ueber_uns.html">Über uns</a></li>
-            <li><a href="roadmap.html">Roadmap</a></li>
-            <li><a href="https://github.com/The-real-BZZ-Coders" target="_blank">Unser Github</a></li>
-          </ul>
-        </nav>
       </header>
 
       <main>
-        <h1>Über uns</h1>
+        <div class="background_color">
+          <nav id="navbar">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="iperka.html">Iperka</a></li>
+              <li><a href="hermes.html">Hermes</a></li>
+              <li><a href="organisation.html">Organisation</a></li>
+              <li><a class="active_navbar" href="ueber_uns.html">Über uns</a></li>
+              <li><a href="roadmap.html">Roadmap</a></li>
+              <li><a href="https://github.com/The-real-BZZ-Coders" target="_blank">Unser Github</a></li>
+            </ul>
+          </nav>
 
-        <div>
-          <h2>Wer sind wir?</h2>
-          <p>Wir sind eine Gruppe von Schülern am BZZ, welche den Auftrag hatten eine Webseite für das Modul 431 zu erstellen.</p>
-          <br>
-          <h2>Was ist unser Ziel?</h2>
-          <p>Unser Ziel ist es, eine Webseite zu erstellen, auf welcher wir immer wieder Beiträge hinzufügen können.
-          Unsere Beiträge sind zum Beispiel: </p>
-          <ul> <!-- TODO: CSS:list-style-type: disc; -->
-            <li>IPERKA</li>
-            <li>HERMES</li>
-            <li>Organisation</li>
-            <li>Roadmap</li>
-          </ul>
-          <br>
-        </div>
+          <h1>Über uns</h1>
 
-        <div>
-          <h2>Marc Andri Fuchs</h2>
-            <img src="..\img\ueber_uns_marc.png">
-            <div>
-              <p>Vorname:</p>
-              <p>Nachname:</p>
-              <p>Alter:</p>
-              <p>Wohnort:</p>
-              <p>Hobbys:</p>
+          <section id="wer">
+            <h2>Wer sind wir?</h2>
+            Wir sind eine Gruppe von Schülern am BZZ, welche den Auftrag hatten eine Webseite für das Modul 431 zu erstellen.
+          </section>
+
+          <div class="grid-container">
+            <div class="person1">
+              <div class="name1 person_name">
+                <h2>Marc Andri Fuchs</h2>
+              </div>
+              <div class="text1 person_desc">
+                <ul>
+                  <li><b>Alter: </b>15</li>
+                  <li><b>Wohnort: </b>Einsiedeln SZ</li>
+                  <li><b>Hobbys: </b>Gaming, Programmieren, Essen, Memes</li>
+                </ul>
+              </div>
+              <div class="image1 person_img_left">
+                <img src="..\img\ueber_uns_marc.png">
+              </div>
             </div>
 
-            <div>
-              <p>Marc Andri</p>
-              <p>Fuchs</p>
-              <p>15</p>
-              <p>Einsiedeln SZ</p>
-              <p>Gaming, Programmieren, Essen, Memes</p>
-            </div>
-        </div>
-
-        <div>
-          <h2>Tim Irmler</h2>
-            <img src="https://via.placeholder.com/200x200">
-            <div>
-              <p>Vorname:</p>
-              <p>Nachname:</p>
-              <p>Alter:</p>
-              <p>Wohnort:</p>
-              <p>Hobbys:</p>
+            <div class="person2">
+              <div class="name2 person_name">
+                <h2>Tim Irmler</h2>
+              </div>
+              <div class="image2 person_img_right">
+                <img src="https://via.placeholder.com/200x200">
+              </div>
+              <div class="text2 person_desc">
+                <ul>
+                  <li><b>Alter: </b>17</li>
+                  <li><b>Wohnort: </b>Hittnau ZH</li>
+                  <li><b>Hobbys: </b>Gaming, Programmieren, Hund, Schiessen, Schwimmen, SUP</li>
+                </ul>
+              </div>
             </div>
 
-            <div>
-              <p>Tim</p>
-              <p>Irmler</p>
-              <p>15</p>
-              <p>Hittnau ZH</p>
-              <p>Gaming, Programmieren, Hund, Schiessen, Schwimmen, SUP</p>
-            </div>
-        </div>
-
-        <div>
-          <h2>Phillip William Jerebic</h2>
-            <img src="https://via.placeholder.com/200x200">
-            <div>
-              <p>Vorname:</p>
-              <p>Nachname:</p>
-              <p>Alter:</p>
-              <p>Wohnort:</p>
-              <p>Hobbys:</p>
+            <div class="person3">
+              <div class="name3 person_name">
+                <h2>Phillip William Jerebic</h2>
+              </div>
+              <div class="text3 person_desc">
+                <ul>
+                  <li>Alter: 15</li>
+                  <li>Wohnort: Hüttikon ZH</li>
+                  <li><b>Hobbys: </b>Gaming, Fahrradfahren, Schlagzeug</li>
+                </ul>
+              </div>
+              <div class="image3 person_img_left">
+                <img src="https://via.placeholder.com/200x200">
+              </div>
             </div>
 
-            <div>
-              <p>Phillip</p>
-              <p>William</p>
-              <p>15</p>
-              <p>Hüttikon ZH</p>
-              <p>Gaming, Fahrradfahren, Schlagzeug</p>
+            <div class="person4">
+              <div class="name4 person_name">
+                <h2>ParWiz Rajabi</h2>
+              </div>
+              <div class="image4 person_img_right">
+                <img src="https://via.placeholder.com/200x200">
+              </div>
+              <div class="text4 person_desc">
+                <ul>
+                  <li><b>Alter: </b>20</li>
+                  <li><b>Wohnort: </b>Altstetten ZH</li>
+                  <li><b>Hobbys: </b>Lernen, Fussball, Fitness</li>
+                </ul>
+              </div>
             </div>
-        </div>
-
-        <div>
-          <h2>ParWiz Rajabi</h2>
-            <img src="https://via.placeholder.com/200x200">
-            <div>
-              <p>Vorname:</p>
-              <p>Nachname:</p>
-              <p>Alter:</p>
-              <p>Wohnort:</p>
-              <p>Hobbys:</p>
-            </div>
-
-            <div>
-              <p>ParWiz</p>
-              <p>Rajabi</p>
-              <p>20</p>
-              <p>Altstetten ZH</p>
-              <p>Lernen, Fussball, Fitness</p>
-            </div>
+          </div>
         </div>
       </main>
 
