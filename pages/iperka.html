@@ -1,47 +1,74 @@
-<!DOCTYPE html>
-<html lang="de" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Website BZZ</title> <!--TODO: Adjust title-->
-  </head>
-  <body>
-    <div id="wrapper">
-      <header>
-        <div id="logo">
-          <a href="../index.html"><img src="../img/placeholder_logo.png" alt="Logo" id="logo_header"></a> <!--TODO: Add logo, image or text-->
-        </div>
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Website BZZ</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        <nav id="top_nav">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="iperka.html">Iperka</a></li> <!--TODO: link to iperka page -->
-            <li><a href="hermes.html">Hermes</a></li> <!--TODO: link to hermes page -->
-            <li><a href="organisation.html">Organisation</a></li> <!--TODO: link to organisation page -->
-            <li><a href="roadmap.html">Roadmap</a></li>
-            <li><a href="ueber_uns.html">Über uns</a></li> <!--TODO: link to über uns page -->
-            <li><a href="https://github.com/The-real-BZZ-Coders" target="_blank">Unser Github</a></li>
-          </ul>
-        </nav>
-      </header>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-      <main>
-        <h1>IPERKA</h1>
-        <h2>Was ist IPERKA?</h2>
-        <p>IPERKA ist eine Methode mit sechs Schritten, die in vielen Situationen erfolgreich angewendet werden kann.</p>
-        <div>
-            <div class="">
-              <div>I</div>
-              Informieren
-                <ul id="">
-                  <li>Auftrag klären</li>
-                  <li>Informationen beschaffen</li>
-                  <li>Informationen sortieren, ordnen, werten</li>
-                  <li>Wesentliches erkennen</li>
-                </ul>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Website BZZ</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
-            <h2>Checkliste: Informieren </h2>
-                <ul id="">
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="hermes.html">Hermes</a></li>
+								<li><a href="iperka.html">IPERKA</a></li>
+								<li><a href="Organisation.html">Organisation</a></li>
+								<li><a href="roadmap.html">Roadmap</a></li>
+								<li><a href="ueber_uns.html">über uns</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+          <section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>IPERKA</h2>
+								<p>Erklärung von IPERKA</p>
+							</div>
+						</header>
+
+          <div class="wrapper">
+						<div class="inner">
+							<h3 class="major">Was ist IPERKA?</h3>
+							<p>IPERKA ist eine Methode mit sechs Schritten, die in vielen Situationen erfolgreich angewendet werden kann.</p>
+
+							<h2><a href="#informieren"> I </a><a href="#planen"> P </a><a href="#entscheiden"> E </a><a href="#realisieren"> R </a><a href="#kontrollieren"> K </a><a href="#auswerten"> A </a></h2>
+
+							<!-- TODO: display the letters in a more compact way. maybe something like this?  https://html5up.net/ethereal-->
+
+							<h3 class="major" id="informieren">I - Informieren</h3>
+							<ul>
+								<li>Auftrag klären</li>
+								<li>Informationen beschaffen</li>
+								<li>Informationen sortieren, ordnen, werten</li>
+								<li>Wesentliches erkennen</li>
+							</ul>
+
+							<h4>Checkliste:</h4>
+                <ul>
                   <li>Wer will von wem was und was nicht?</li>
                   <li>Wie ist das Produkt, welche Merkmale hat es?</li>
                   <li>Wozu dient das Produkt, was muss es bieten?</li>
@@ -54,131 +81,85 @@
                   <li>Welche Aspekte gibt es noch zu berücksichtigen?</li>
                   <li>Verlangte Qualität und Güte? Handling?</li>
                 </ul>
-            </div>
-            <div class="">
-              <div>P</div>
-              Planen
-                <ul>
-                  <li>Ziel definieren</li>
-                  <li>Lösungsweg bestimmen</li>
-                  <li>Arbeitsplan erstellen</li>
-                  <li>Zeitplanung vornehmen</li>
-                  <li>Ausschlusskriterien bezüglich Machbarkeitsanspruch</li>
-              </ul>
 
-              <h2>Checkliste: Planen </h2>
-                  <ul id="">
-                    <li>Wer will von wem was und was nicht?</li>
-                    <li>Wie ist das Produkt, welche Merkmale hat es?</li>
-                    <li>Wozu dient das Produkt, was muss es bieten?</li>
-                    <li>In welcher Ausführung soll es (nicht) sein?</li>
-                    <li>Welchen Belastungsfaktoren ist es ausgesetzt?</li>
-                    <li>Wie wird es von wem genutzt?</li>
-                    <li>Wie hoch ist die erwartete Lebensdauer?</li>
-                    <li>Welche Umgebungsvariablen sind zu klären?</li>
-                    <li>Bis wann muss das Produkt übergeben sein?</li>
-                    <li>Welche Aspekte gibt es noch zu berücksichtigen?</li>
-                    <li>Verlangte Qualität und Güte? Handling?</li>
-                  </ul>
-            </div>
-            <div class="">
-              <div>E</div>
-              Entscheiden
-                <ul>
-                  <li>Point of no return</li>
-                  <li>Strategie festlegen</li>
-                  <li>Verbindlichkeiten absprechen und festhalten</li>
-                  <li>Nutzwertanalyse von verschiedenen Varianten</li>
-                  <li>Argumentarium erstellen und prüfen</li>
-                </ul>
+								<h3 class="major" id="planen">P - Planen</h3>
+								<ul>
+									<li>Ziel definieren</li>
+									<li>Lösungsweg bestimmen</li>
+									<li>Arbeitsplan erstellen</li>
+									<li>Zeitplanung vornehmen</li>
+									<li>Ausschlusskriterien bezüglich Machbarkeitsanspruch</li>
+								</ul>
 
-                <h2>Checkliste: Entscheiden </h2>
-                    <ul id="">
-                      <li>Sind Kompetenzen und Entscheidungswege klar?
+								<h3 class="major" id="entscheiden">E - Entscheiden</h3>
+								<ul>
+									<li>Point of no return</li>
+									<li>Strategie festlegen</li>
+									<li>Verbindlichkeiten absprechen und festhalten</li>
+									<li>Nutzwertanalyse von verschiedenen Varianten</li>
+									<li>Argumentarium erstellen und prüfen</li>
+								</ul>
 
+								<h3 class="major" id="realisieren">R - Realisieren</h3>
+								<ul>
+									<li>Ziel-Ausrichtung überprüfen</li>
+									<li>Probleme beheben</li>
+									<li>Zwischenziele überprüfen</li>
+									<li>Kurskorrekturen vornehmen</li>
+									<li>Evtl. Entscheid für/ gegen Abbruch</li>
+								</ul>
 
-• Ist das Argumentarium erstellt und kommuniziert?
-• Sind der eingeschlagene Weg und das anvisierte Ziel noch richtig?
-• Stimmen die Teilentscheide mit dem Gesamtziel überein?
-• Sind die Abmachungen verhältnismässig und angepasst, verstanden und
-verinnerlicht?
-• Stimmen die definierten Abläufe mit der Realität überein?
-• Werden die Ressourcen optimal eingesetzt?</li>
-                      <li>• Halten sich alle an die Vereinbarungen?</li>
-                      <li>• Ist akzeptiert und kommuniziert, welcher Weg eingeschlagen wird?</li>
-                      <li>In welcher Ausführung soll es (nicht) sein?</li>
-                      <li>Welchen Belastungsfaktoren ist es ausgesetzt?</li>
-                      <li>Wie wird es von wem genutzt?</li>
-                      <li>Wie hoch ist die erwartete Lebensdauer?</li>
-                      <li>Welche Umgebungsvariablen sind zu klären?</li>
-                      <li>Bis wann muss das Produkt übergeben sein?</li>
-                      <li>Welche Aspekte gibt es noch zu berücksichtigen?</li>
-                      <li>Verlangte Qualität und Güte? Handling?</li>
-                    </ul>
+								<h3 class="major" id="kontrollieren">K - Kontrollieren</h3>
+								<ul>
+									<li>Meilensteine überprüfen</li>
+									<li>Vergleich von Planung und Umsetzung</li>
+									<li>Checkliste, eigene und Fremdkontrolle</li>
+									<li>Qualitätskontrolle</li>
+									<li>Abnahmekriterien überprüfen</li>
+								</ul>
 
-            </div>
-            <div class="">
-              <div>R</div>
-              Realisieren
-                <ul>
-                  <li>Ziel-Ausrichtung überprüfen</li>
-                  <li>Probleme beheben</li>
-                  <li>Zwischenziele überprüfen</li>
-                  <li>Kurskorrekturen vornehmen</li>
-                  <li>Evtl. Entscheid für/ gegen Abbruch</li>
-                </ul>
+								<h3 class="major" id="auswerten">A - Auswerten</h3>
+								<ul>
+									<li>Reflexion über Produkt (Ziel : Resultat)</li>
+									<li>Reflexion über Prozess (Ressourcen; Gruppendynamik)</li>
+									<li>Reflexion über Zusammenarbeit, Umgang miteinander</li>
+									<li>Optimierung formulieren (Produkt und Prozess!)</li>
+									<li>Erkenntnisse zusammenfassen</li>
+								</ul>
 
-                <h2>Checkliste: Realisieren </h2>
-                    <ul id="">
-                      <li>Wer will von wem was und was nicht?</li>
-                      <li>Wie ist das Produkt, welche Merkmale hat es?</li>
-                      <li>Wozu dient das Produkt, was muss es bieten?</li>
-                      <li>In welcher Ausführung soll es (nicht) sein?</li>
-                      <li>Welchen Belastungsfaktoren ist es ausgesetzt?</li>
-                      <li>Wie wird es von wem genutzt?</li>
-                      <li>Wie hoch ist die erwartete Lebensdauer?</li>
-                      <li>Welche Umgebungsvariablen sind zu klären?</li>
-                      <li>Bis wann muss das Produkt übergeben sein?</li>
-                      <li>Welche Aspekte gibt es noch zu berücksichtigen?</li>
-                      <li>Verlangte Qualität und Güte? Handling?</li>
-                    </ul>
+								<section class="features">
+									<article>
+										<h3 class="major">HERMES</h3>
+										<p>Kurzbeschreibung von HERMES.</p>
+										<a href="hermes.html" class="special">Learn more</a>
+									</article>
+									<article>
+										<h3 class="major">Organisationstrukturen</h3>
+										<p>Kurzbeschreibung von Organisationstrukturen.</p>
+										<a href="organisation.html" class="special">Learn more</a>
+									</article>
+								</section>
 
-            </div>
-            <div class="">
-              <div>K</div>
-              Konttrollieren
-                <ul>
-                  <li>Meilensteine überprüfen</li>
-                  <li>Vergleich von Planung und Umsetzung</li>
-                  <li>Checkliste, eigene und Fremdkontrolle</li>
-                  <li>Qualitätskontrolle</li>
-                  <li>Abnahmekriterien überprüfen</li>
-                </ul>
-            </div>
-            <div class="">
-              <div>A</div>
-              Auswerten
-                <ul>
-                  <li>Reflexion über Produkt (Ziel : Resultat)</li>
-                  <li>Reflexion über Prozess (Ressourcen; Gruppendynamik)</li>
-                  <li>Reflexion über Zusammenarbeit, Umgang miteinander</li>
-                  <li>Optimierung formulieren (Produkt und Prozess!)</li>
-                  <li>Erkenntnisse zusammenfassen</li>
-                </ul>
-              </div>
+							</div>
+						</div>
 
-          </div>
-      </main>
+				<!-- Footer -->
+					<div id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; the-real-BZZ-coders.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+			</div>
 
-      <footer>
-        <div id="footer_left"><!--TODO:delete Link-->
-          &copy; 2020 <a id="link_footer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Impressum / Datenschutzerklärung</a>
-        </div>
+		<!-- Scripts -->
+			<script src="../js/jquery.min.js"></script>
+			<script src="../js/jquery.scrollex.min.js"></script>
+			<script src="../js/browser.min.js"></script>
+			<script src="../js/breakpoints.min.js"></script>
+			<script src="../js/util.js"></script>
+			<script src="../js/main.js"></script>
 
-        <div id="footer_right">
-          The real BZZ coders
-        </div>
-      </footer>
-    </div>
-  </body>
+	</body>
 </html>
